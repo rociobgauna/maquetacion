@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.055" height="33.643" viewBox="0 0 34.055 33.643">
+  <g id="Grupo_19320" data-name="Grupo 19320" transform="translate(-50.511 -317.392)">
+    <g id="Elipse_157" data-name="Elipse 157" transform="translate(60.877 331.46)" fill="none" stroke="#daa3ff" stroke-width="1.5">
+      <circle cx="6.941" cy="6.941" r="6.941" stroke="none"/>
+      <circle cx="6.941" cy="6.941" r="6.191" fill="none"/>
+    </g>
+    <g id="Grupo_131" data-name="Grupo 131" transform="translate(66.827 334.99)">
+      <path id="Trazado_126" data-name="Trazado 126" d="M239.216,123.785l-1.959-1.469v-2.992a.544.544,0,1,0-1.088,0v3.265a.543.543,0,0,0,.218.435l2.176,1.632a.544.544,0,0,0,.653-.871Z" transform="translate(-236.169 -118.779)" fill="#daa3ff" stroke="#daa3ff" stroke-width="0.5"/>
+    </g>
+    <path id="Path" d="M2721.186,315.792a1.256,1.256,0,0,1,.365-.888l14.778-14.834a1.244,1.244,0,0,1,1.759-.006l.006.006,14.781,14.834a1.257,1.257,0,0,1,.365.888v10.821a4.589,4.589,0,0,1-4.579,4.6h-7.317" transform="translate(-2669.675 18.825)" fill="none" stroke="#daa3ff" stroke-width="2"/>
+    <path id="Path-2" data-name="Path" d="M2753.241,315.792a1.254,1.254,0,0,0-.365-.888L2738.1,300.07a1.244,1.244,0,0,0-1.759-.006l-.007.006L2721.551,314.9a1.259,1.259,0,0,0-.365.888v10.821a4.589,4.589,0,0,0,4.579,4.6h7.317" transform="translate(-2669.675 18.825)" fill="none" stroke="#daa3ff" stroke-width="2"/>
+  </g>
+</svg>

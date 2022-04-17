@@ -1,0 +1,313 @@
+.container {
+    background: #FEFEFE;
+}
+.p__mensajes {
+    font-size: 20px;
+    color: #333333;
+}
+.p__mensajes_dos {
+    font-size: 18px;
+    color: #333333;
+}
+.p__mensajes_tres {
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+    top: -8px;
+}
+.punto__msj {
+    background: #FE3151;
+    height: 11px;
+    width: 11px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    position: relative;
+    top: -10px;
+    left: 13px;
+}
+.p__nombre {
+    font-size: 16px;
+    color: #FE3151;
+}
+.p_dos_ , .p__hora{
+    font-size: 12px;
+    color: #999999;
+}
+.cantidad__de__mjs{
+    width: 17px;
+    height: 17px;
+    background: #FE3151;
+    border-radius: 50px;
+    position: relative;
+    top: 4px;
+}
+.p_cantidad_de_mjs {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+.p_dos_ {
+    position: relative;
+    top: -16px;
+    left: 1px;
+}
+.p__hora {
+    position: relative;
+    top:-1px;
+    left: -14px;
+}
+.margen__mjs {
+    position: relative;
+    top: -25px;
+}
+.cantidad__de__mjs--dos {
+    position: relative;
+    left: 17px;
+}
+.chat__dos {
+    position: relative;
+    top: -28px;
+}
+.margen__mjs--dos {
+    position: relative;
+    top: -55px;
+}
+.cant_y__hora {
+    position: relative;
+    left: -5px;
+}
+.p__hora--dos {
+    position: relative;
+    left: -23px;
+}
+.chat__tres {
+    position: relative;
+    top: -55px;
+}
+.p__hora--tres {
+    position: relative;
+    top: 7px;
+    left: -22px;
+}
+.margen__mjs--tres {
+    position: relative;
+    top: -80px;
+}
+.chat__cuatro {
+    position: relative;
+    top: -80px;
+}
+.margen__mjs--cuatro {
+    position: relative;
+    top: -108px;
+}
+.chat__cinco {
+    position: relative;
+    top: -110px;
+} 
+.margen__mjs--cinco {
+    position: relative;
+    top: -135px;
+}
+.p__nombre--dos {
+    color: #393A34;
+}
+/*-----------Pantalla chat----------------------*/
+.dialogo__image{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.dialogo__imagen {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.dialogo__image__p {
+    z-index: 2;
+    position:relative;
+}
+.name__chat {
+    color: #333333;
+    font-size: 20px;
+}
+.line {
+    color: #FE3151;
+    font-size: 13px;
+    position: relative;
+    top: -15px;
+    left: 22px;
+}
+.arrow__back {
+    width: 20px;
+    height: 14px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.perfil__chat {
+    position: relative;
+    left: 10px;
+}
+.name__chat {
+    position: relative;
+    left: 30px;
+}
+.bandera__dos {
+    width: 10px;
+    height: 8px;
+}
+.p__expensas {
+    color: #fff;
+    font-size: 10px;
+}
+.expensas__precio {
+    position: relative;
+    top: 15px;
+} 
+.bandera__dos {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.p__precio {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.precio__departamento {
+    position: relative;
+    top: 71px;
+    left: 3px;
+}
+.p__precio {
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+.p__depto__uno, .p__depto__dos {
+    color: #fff;
+}
+.p__depto__uno {
+    font-size: 18px;
+    position: relative;
+    top: 118px;
+}
+.p__depto__dos {
+    font-size: 12px;
+    position: relative;
+    top: 98px;
+}
+.chat__publicacion {
+    position: relative;
+    top: -12px;
+}
+.dialogo_uno {
+    width: 100%;
+    height: 60px;
+    background:#F9F9F9;
+    border-radius: 3px 3px 3px 3px;
+}
+.dialogo_uno--height {
+    height: 33px;
+}
+.p__dialogo {
+    color: #333333;
+    font-size: 16px;
+}
+.p__dialogo--dos {
+    position: relative;
+    top: -5px;
+}
+.cont__dialogo {
+    position: relative;
+    top: -48px;
+}
+.cont__dialogo__dos {
+    top: -68px;
+    margin-bottom: -65px;
+}
+.hora__chat {
+    color: #999999;
+    font-size:12px;
+    margin-bottom: 5px;
+}
+.cont__dialogo__prop {
+    width: 100%;
+    height: 58px;
+    background: #FE3151;
+    border-radius: 3px 3px 3px 3px;
+}
+.anunciante__prop {
+    position: relative;
+    top: 17px;
+}
+.p__anunciante {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.contenedor__enviar__msj {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    
+}
+.mensaje1 {
+    border: 0;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px 3px 3px 3px;
+    width: 100%;
+    outline: none;
+    height: 36px;
+}
+.img__mas {
+    position: relative;
+    left: -10px;
+}
+.btn__enviar {
+    background: #FE3151;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    position: relative;
+    left: 10px;
+}
+.fondo_div{
+    background-color: rgba(22,31,61, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 115px;
+}
+/*-----------Pantalla chat dos ----------------------*/
+.name__chat--dos, .line__chat--dos {
+    position: relative;
+    left:6px;
+}
+.guion__chat--dos {
+    width: 100%;
+    height: 1px;
+    background:rgb(216,216,216,0.4);
+}
+.contenedor__perfil__chat {
+    position: relative;
+    top: -12px;
+}
+.arrow__back--dos {
+    width: 20px;
+    height: 14px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.fondo_div--dos {
+    background-color: rgba(22,31,61, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 84px;
+}

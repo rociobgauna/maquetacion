@@ -1,0 +1,27 @@
+.contenedor__h2__reestablecer{
+    font-size: 22px;
+    text-align: center;
+    color: rgba(74, 75, 77);
+    font-family: 'Metropolis Medium';
+    margin-top: 50px;
+}
+.contenedor__p__reestablecer{
+ font-size: 14px;
+ text-align: center;
+ color: rgba(153, 153, 153);
+ font-family: 'Sofia Pro Light';
+ 
+}
+.contenedor__h2__reestablecer__listo{
+    font-size: 26px;
+    text-align: center;
+    color: rgba(74, 75, 77);
+    font-family: 'Metropolis Medium';
+    margin-top: 50px;
+}
+.contenedor__p__reestablecer__listo{
+    font-size: 14px;
+    color: rgba(51, 51, 51);
+    text-align: center;
+    font-family: 'Sofia Pro';
+}

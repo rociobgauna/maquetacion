@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/rango_de_precios.css">
+    <title>Rango de precios con graficos</title>
+</head>
+<body>
+    <div class="container">
+        <header class="contenedor__header row justify-content-center">
+            <div class="col-5 mt-3">
+                <img src="images/icons/arrow_white.svg" class="img__arrow_white">
+            </div>
+            <div class="col-5 mt-3 d-flex justify-content-end">
+                <p class="p__header">Rango de precios</p>
+            </div>
+        </header>
+        <div class="row">
+            <div class="espacioredondeado"></div>
+        </div>
+        <div class="contenedor__precio d-flex justify-content-center">
+            <div class="row col-12 flex-column precio justify-content-center">
+                <div class="col-11">
+                    <p class="p__precio">Precio</p>
+                    <p class="p__moneda">Moneda</p>
+                    <p class="p__usd">USD</p>
+                    <div class="">
+                        <hr>
+                    </div>
+                    <p class="p__usd_dos">US$$ 10 - U$$ 1.000+</p>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/icons/grafico.png" class="mt-4 img__grafico">
+                    </div>
+                    <div>
+                        <hr class="guion__segundo">
+                    </div>
+                    <p class="pr__expensas">Expensas</p>
+                    <p class="p__moneda">Moneda</p>
+                    <p class="pr__cop">COP</p>
+                    <div>
+                        <hr>
+                    </div>
+                    <p class="pr__cop_dos">COP 36.000 - COP 3.500.000+</p>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/icons/grafico.png" class="mt-4 img__grafico">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <hr class="mt-4 guion__cuarto">
+                </div>
+            </div>  
+        </div>
+        <footer class="row d-flex justify-content-around align-items-center">
+            <div class="col-5 justify-content-start">
+                <p class="p__filtros">Más filtros</p>
+            </div>
+            <div class="col-5 d-flex justify-content-end">
+                <button class="boton__buscar">
+                    <div class="justify-content-around align-items-center row boton__r">
+                        <img src="images/icons/lupa_blanca.svg" class="img__lupa">
+                        <p class="pr__btn col-7 mt-2">Buscar</p>
+                    </div>
+                </button>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>

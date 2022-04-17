@@ -1,0 +1,191 @@
+@import url('http://fonts.cdnfonts.com/css/sf-compact-text');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@font-face {
+    font-family:'Metropolis ExtraBold';
+    src: url(../assets/fonts/metropolis/Metropolis-ExtraBold.otf);
+}
+@font-face {
+    font-family:'Metropolis Medium';
+    src: url(../assets/fonts/metropolis/Metropolis-Medium.otf);
+}
+@font-face {
+    font-family: 'sf-light';
+    src: url(../assets/fonts/sf/FontsFree-Net-SFCompactText-Light.ttf);
+}
+@font-face {
+    font-family: 'Sofia Pro light';
+    src: url(../assets/fonts/sofia_pro/sofia-pro-light.otf);
+}
+@font-face {
+    font-family: 'Sofia Pro Medium';
+    src: url(../assets/fonts/sofia_pro/Sofia\ Pro\ Medium.ttf);
+}
+/*------Declaraciones generales----- */
+:root {
+    --main-bg-color-principal: #FE3151;
+    --main-hover-color: #D92A45
+}
+*{
+    margin: 0px 0px;
+    font-family: 'Sofia Pro Light';
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+/* Inputs */
+input{
+    border: none;
+    outline: none;
+}
+.contenedor__input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #B6B7B7;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    padding-left: 70px;
+}
+.contenedor__input:focus {
+    border: 1px solid #FE3151;
+    color: #FE3151;
+}
+/* */
+.contenedor__input__div1:focus i{
+    background-image: url(../images/icons/sobre.svg);
+}
+.label__password{
+    display: flex;
+    width: 100%;
+}
+input[type=text]:focus + .contenedor__input__img__1{
+    background-image: url(../images/icons/sobre.svg);
+}
+input[type=password]:focus + .contenedor__input__img__2{
+    background-image: url(../images/icons/candado_rosa.svg);
+}
+input[type=password]:focus ~ .contenedor__input__img__3{
+    background-image: url(../images/icons/ojo_rosa_cerrado.svg);
+    cursor: pointer;
+}
+input[type=text]:focus + .contenedor__input__img__4{
+    background-image: url(../images/icons/icono_nombre.svg);
+}
+.contenedor__input__img__1{
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    z-index: 3;
+    background-image: url(../images/icons/sobre_gris.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50px;
+}
+.contenedor__input__img__2{
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    z-index: 3;
+    background-image: url(../images/icons/candado.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50px;
+}
+.contenedor__input__img__3{
+    width: 15px;
+    height: 15px;
+    font-size: 20px;
+    z-index: 3;
+    background-image: url(../images/icons/ojo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+.contenedor__input__img__4{
+    width: 15px;
+    height: 15px;
+    font-size: 20px;
+    z-index: 3;
+    background-image: url(../images/icons/icono_nombre_gris.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50px;
+}
+/*------Botones----- */
+:root {
+    --main-bt-color-principal: #FE3151;
+}
+input:focus::placeholder{
+    color: var(--main-bt-color-principal);
+}
+button:focus{
+    outline: none !important;
+}
+/*------Fin----- */
+body{
+    background-color: var(--main-bg-color-principal);
+}
+
+.boton{
+    background-color: var(--main-bt-color-principal);
+    width: 100%;
+    height: 52px;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.boton:hover{
+ background-color: var(--main-hover-color);
+}
+/*-----Logo blanco-------*/
+.contenedor__logo {
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.contenedor__logo img{
+    width: 130px;
+    height: 130px;
+}
+/*-----Fin de Logo blanco-------*/
+
+
+/*-----barra-------*/
+.contenedor__barra {
+    text-align: center;
+}
+/*-----fin de barra-------*/
+
+
+/*------ Iniciando --------*/
+.contenedor__iniciando__p {
+    color: rgba(255, 255, 255);
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__logo__elementos__svg{
+    margin-top: 200px;
+}
+.contenedor__logo__elementos__svg-elemento{
+    width: 200px;
+    height: 70px
+}
+.contenedor__logo__rosa{
+    width: 85px;
+    height: 90px;
+}
+/*------ Fin de Iniciando --------*/
+  
+

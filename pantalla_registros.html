@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/pantalla_ingreso_estilos.css">
+    <link rel="stylesheet" href="styles/pantalla_registro_estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+    <title>Pantalla de registros</title>
+</head>
+<body>
+    <div class="contenedor container" id="contenedor__pc">
+      <div class="row ">
+        <div class="col-12 d-flex justify-content-center  mt-4">
+          <img src="images/icons/Logo_rosa.svg" alt="" class="contenedor__logo__rosa">
+        </div>
+      </div>
+        <!--  -->
+        <div class="row justify-content-center">
+            <div class="col-10 mb-3 mt-3">
+                <h2 class="contenedor__h2__inicio">Registrarse</h2>
+            </div>
+        </div>
+        <!-- Botones -->
+        <div class="row">
+          <div class="col-12 d-flex justify-content-around align-items-center contenedor__botones">
+            <div class="prueba"></div>
+            <button class="col-6 contenedor__botones__personal botonesfocus" id="personal">Personal</button>
+            <button class="col-6 contenedor__botones__empresas" id="empresa">Empresas</button>
+        </div>
+        </div>
+        <!-- Inputs personal -->
+        <div class="row justify-content-center mt-4" id="contenidoPersonal">
+            <div class="col-10 d-flex justify-content-center align-items-center mb-3 contenedor__input__div4">
+              <input type="text" class="contenedor__input" placeholder="Nombre">
+              <i class="contenedor__input__img__4"></i>
+            </div>
+            <div class="col-10 d-flex justify-content-center align-items-center mb-3 contenedor__input__div1">
+              <input type="text" class="contenedor__input" placeholder="E-mail">
+              <i class="contenedor__input__img__1"></i>
+            </div>
+            <div class="col-10 d-flex justify-content-center align-items-center mb-1 contenedor__input__div2">
+                <input type="password" class="contenedor__input input__password" id="password" placeholder="Contraseña">
+                <i class="contenedor__input__img__2" id="candado"></i> <!--Candadito-->
+                <i class="contenedor__input__img__3" id="ojo"></i> <!--Ojo-->
+            </div>
+        </div>
+        <div class="row contenedor__seleccionar justify-content-center align-items-center d-none" id="contenidoEmpresa">
+          <div class="col-12 justify-content-center align-items-center m-auto">
+            <!-- Principio collapses -->
+                    <div class="mt-4">
+                    <div id="accordion">
+                      <div class="card1">
+                        <div class="contenedor__boton__seleccionar" id="headingOne">
+                          <h5 class="mb-0">
+                            <button class="boton__seleccionar" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="boton">
+                              <p class="boton__seleccionar__p">De qué país eres?<img src="images/icons/arrow.svg" alt="" class="contenedor__collapse__img__1"></p></button>
+                          </h5>
+                        </div>
+                        <!-- Opciones -->
+                        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                                <input type="checkbox" id="check1" class="ml-2">
+                                <label for="check1" class="label1">Argentina</label>
+                          </div>
+                        </div>
+                        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                            <input type="checkbox" id="check2" class="ml-2">
+                            <label for="check2" class="label1">1</label>
+                      </div>
+                        </div>
+                        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                            <input type="checkbox" id="check3" class="ml-2">
+                            <label for="check3" class="label1">2</label>
+                      </div>
+                        </div>
+                      </div>
+                      <!-- 2 -->
+                      <div class="card1 mt-2">
+                        <div class="contenedor__boton__seleccionar" id="headingTwo">
+                          <h5 class="mb-0">
+                            <button class="boton__seleccionar" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="boton2">
+                              <p class="boton__seleccionar__p">Seleccioná un usuario<img src="images/icons/arrow.svg" alt="" class="contenedor__collapse__img__2"></p></button>
+                          </h5>
+                        </div>
+                        <!-- Opciones -->
+                        <div id="collapseTwo" class="collapse2 hide" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                            <input type="checkbox" id="check4" class="ml-2">
+                            <label for="check4" class="label2">Constructora</label>
+                      </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse2 hide" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                            <input type="checkbox" id="check5" class="ml-2">
+                            <label for="check5" class="label2">Inmobiliaria</label>
+                      </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse2 hide" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body1 col-12 input d-flex justify-content-lg-around align-items-center">
+                            <input type="checkbox" id="check6" class="ml-2">
+                            <label for="check6" class="label2">Broker</label>
+                      </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Fin -->
+                  <div class="row justify-content-center mt-4" id="contenidoPersonal">
+                    <div class="col-10 d-flex justify-content-center align-items-center mb-3 contenedor__input__div4 margen__div4_empresas">
+                      <input type="text" class="contenedor__input" placeholder="Nombre">
+                      <i class="contenedor__input__img__4"></i>
+                    </div>
+                    <div class="col-10 d-flex justify-content-center align-items-center mb-3 contenedor__input__div1">
+                      <input type="text" class="contenedor__input" placeholder="E-mail">
+                      <i class="contenedor__input__img__1"></i>
+                    </div>
+                    <div class="col-10 d-flex justify-content-center align-items-center mb-1 contenedor__input__div2">
+                        <input type="password" class="contenedor__input input__password" id="password1" placeholder="Contraseña">
+                        <i class="contenedor__input__img__2" id="candado1"></i> <!--Candadito-->
+                        <i class="contenedor__input__img__3" id="ojo1" ></i><!--Ojo-->
+                    </div>
+                </div>
+        </div>
+        
+        
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-10 justify-content-center contenedor__boton__registrarse">
+          <button class="boton">Registrarse</button>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <p class="mt-4 contenedor__registro__p">Ya tenés una cuenta?<a href="#" class="contenedor__registro__a ml-1"><strong>Ingresar</strong></a></p>
+        </div>
+      </div>
+      </div> 
+        <!-- Botón -->
+        
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/pantalla_espera.js"></script>
+    <script>
+      //---------- Botones--------//
+      $('#personal').click(function(){
+          personal()
+      })
+      $('#empresa').click(function(){
+          empresa()
+      })
+      
+      function correrBarra(x){
+        let mover_left = 0;
+        if(x===1){
+          mover_left='50%';
+        }
+        $(".prueba").animate({left: mover_left}, 400)
+      }
+      function empresa(){
+        correrBarra(1)
+        $('#personal').removeClass('botonesfocus')
+        $('#empresa').addClass('botonesfocus')
+        $('#contenidoEmpresa').removeClass('d-none')
+        $('#contenidoPersonal').addClass('d-none')
+      }
+      function personal(){
+        correrBarra(2)
+        $('#empresa').removeClass('botonesfocus')
+        $('#personal').addClass('botonesfocus')
+        $('#contenidoPersonal').removeClass('d-none')
+        $('#contenidoEmpresa').addClass('d-none')
+      }
+
+      // Collapse//
+      $('#boton').click(function(){
+          collapse()
+      })
+      function collapse(){
+        $('.collapse').toggle('hide')
+      }
+      //---2---//
+      $('#boton2').click(function(){
+          collapse2()
+      })
+      function collapse2(){
+        $('.collapse2').toggle('hide')
+      }
+      // ------- Ojo-------//
+      $('#ojo').click(function(){
+          ojoAbierto()
+      })
+      let contador = 0;
+       function ojoAbierto(){
+         if (contador === 0){
+          $('#ojo').css("background-image", "url(images/icons/ojo_rosa.svg)", "no-repeat");
+          $('#password').attr('type', 'text');
+          $('#password').addClass('ojo_abierto');
+          $('#password1').attr('type', 'text');
+          $('#password1').addClass('ojo_abierto');
+          $('#candado').css("background-image", "url(images/icons/candado_rosa.svg)", "no-repeat");
+          contador++;
+        }else if (contador === 1){
+          $('#ojo').css("background-image", "url(images/icons/ojo_gris_cerrado.svg)", "no-repeat");
+          $('#password').attr('type', 'password');
+          $('#password').removeClass('ojo_abierto');
+          $('#password').addClass('contenedor__input');
+          $('#password1').attr('type', 'password');
+          $('#password1').removeClass('ojo_abierto');
+          $('#password1').addClass('contenedor__input');
+          $('#candado').css("background-image", "url(images/icons/candado.svg)", "no-repeat");
+          --contador;
+        }
+        }
+        // Ojo1---//
+        $('#ojo1').click(function(){
+          ojoAbierto1()
+      })
+      let contador1= 0
+       function ojoAbierto1(){
+        
+         if (contador1 === 0){
+          $('#ojo1').css("background-image", "url(images/icons/ojo_rosa.svg)", "no-repeat");
+          $('#password').attr('type', 'text');
+          $('#password1').attr('type', 'text');
+          $('#candado1').css("background-image", "url(images/icons/candado_rosa.svg)", "no-repeat");
+          contador1++;
+        }else if (contador1 === 1){
+          $('#ojo1').css("background-image", "url(images/icons/ojo_rosa_cerrado.svg)", "no-repeat");
+          $('#password').attr('type', 'password');
+          $('#password1').attr('type', 'password');
+          $('#candado1').css("background-image", "url(images/icons/candado_rosa.svg)", "no-repeat");
+          --contador1;
+        }
+        }
+       
+       
+      
+        
+  </script>
+</body>
+</html>

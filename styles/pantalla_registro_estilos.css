@@ -1,0 +1,155 @@
+
+.contenedor__botones{
+    border-bottom: 1px ridge rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.contenedor__botones__personal, .contenedor__botones__empresas{
+    background-color: #FFFFFF;
+    border: none;
+    z-index: 1;
+    padding: 5px 0px;
+    color: #333333;
+    font-size: 15px;
+
+}
+.botonesfocus{
+    font-weight: 600;
+    
+}
+/* Borde que se desliza */
+.prueba{
+    display: block;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #fe3151;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+/* Borde que se desliza en anuncios */
+.prueba1{
+    display: block;
+    left: 0%;
+    width: 30%;
+    height: 2px;
+    background-color: #fe3151;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+/*  */
+
+.contenedor__seleccionar__pais,.contenedor__seleccionar__usuario {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    border-color: #fff;
+    outline: none;
+}
+.contenedor__boton__registrarse{
+    margin-top:30px;
+}
+/* collapses */
+.hide{
+    display: none;
+}
+.contenedor__collapse__img__1{
+    transform: rotate(90deg);
+    position: relative;
+    left: 50px;
+}
+.contenedor__collapse__img__2{
+    transform: rotate(90deg);
+    position: relative;
+    left: 33px;
+}
+/* Botones */
+.boton__seleccionar{
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Sofia Pro';
+    color: rgba(51, 51, 51, 0.8);
+}
+.boton__seleccionar:focus img{
+    transform: rotate(270deg);
+    position: relative;
+}
+.contenedor__boton__seleccionar{
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card1{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+}
+/* Imagenes de las opciones */
+.card-body1{
+    flex: 1 1 auto;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 0px;
+}
+.boton__seleccionar__p{
+    margin-bottom: 0px;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    text-align: center;
+}
+/*  */
+input[type=checkbox]{
+    display: none;
+}
+.input label{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.8);
+}
+.input label:before{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    right: 0px;
+    content: "";
+    background:url("../images/icons/tick_rosa.svg") no-repeat;
+    background-size: 100% 100%;
+    opacity:0;
+
+}
+input[type=checkbox]:checked + label:before{
+    opacity:1;
+    padding-right: 85px;
+}
+/* Select */
+.label1{
+    padding-left:90px;
+}
+.label2{
+    padding-left:75px;
+}
+/* Select empresas margen */
+.margen__div4_empresas{
+    margin-top: 30px ;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_17358" data-name="Rectángulo 17358" width="375" height="812" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_2" data-name="Enmascarar grupo 2" clip-path="url(#clip-path)">
+    <path id="Trazado_100" data-name="Trazado 100" d="M1412.536,487.03c38.714-54.708,106.676-3.321,116.374,24.4s45.769,34.564,83.643,10.752,102.636,35.634,48.645,74.744-90.408-46.966-163.806-18.981S1373.822,541.738,1412.536,487.03Z" transform="translate(2004.561 -29.369) rotate(150)" fill="#ecf2fe" opacity="0.27"/>
+    <path id="Trazado_101" data-name="Trazado 101" d="M1398.343,490.141c38.714-54.708,112.729-15.592,130.566,21.292s62.26,45.434,100.134,21.622,86.146,24.764,32.154,63.874-90.408-46.966-163.806-18.981S1359.629,544.849,1398.343,490.141Z" transform="translate(1660.56 -301.369) rotate(150)" fill="#ecf2fe" opacity="0.27"/>
+    <path id="Trazado_102" data-name="Trazado 102" d="M1412.536,487.03c38.714-54.708,106.676-3.321,116.374,24.4s45.769,34.564,83.643,10.752,102.636,35.634,48.645,74.744-90.408-46.966-163.806-18.981S1373.822,541.738,1412.536,487.03Z" transform="matrix(-0.643, 0.766, -0.766, -0.643, 1763.023, -41.652)" fill="#ecf2fe" opacity="0.27"/>
+    <path id="Trazado_99" data-name="Trazado 99" d="M1407.69,488.537c33.428-54.708,86.572-21.531,94.945,6.192s46.378,53.266,95.009,29.032,103.529,51.941,41.5,83.4S1544.6,562.72,1481.228,590.7,1374.263,543.246,1407.69,488.537Z" transform="matrix(0.995, 0.105, -0.105, 0.995, -1432.162, -112.917)" fill="#ecf2fe" opacity="0.27"/>
+  </g>
+</svg>

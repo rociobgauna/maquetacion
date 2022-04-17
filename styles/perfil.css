@@ -1,0 +1,59 @@
+.nombre__usuario {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+.configuracion__cuenta {
+    color: #999999;
+    font-size: 12px;
+}
+.subrayado__perfil {
+    width: 100%;
+    height: 1px;
+    background: rgb(112,112,112,0.2);
+}
+.contenedor__enlaces {
+    width: 100%;
+    height: 47px;
+    border-bottom: solid 1px rgb(112,112,112,0.1);
+}
+.img_info_personal {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+.p_info_personal {
+    font-size: 16px;
+    color: #333333;
+}
+.p_anfitrion {
+    color: #999999;
+    font-size: 12px;
+    position: relative;
+    top: 15px;
+}
+.contenedor__enlaces--dos {
+    width: 100%;
+    height: 47px;
+}
+.btn__anunciante {
+    width: 149px;
+    height: 36px;
+    border: solid 1px #FE3151;
+    background: #ffff;
+    border-radius: 3px;
+    color: #FE3151;
+    font-size: 13px;
+}
+.espacio {
+    height: 100px;
+}
+
+.enlace__ayuda {
+    font-size: 16px;
+    color: #333333;
+}
+.enlace__ayuda:hover {
+    color: #333333;
+}

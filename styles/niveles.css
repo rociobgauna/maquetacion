@@ -1,0 +1,132 @@
+.container {
+    background: #FEFEFE;
+}
+.arrow__back {
+    width: 20px;
+    height: 14px;
+    position: relative;
+    top: 25px;
+}
+.p__nivel_bronze {
+    font-size: 20px;
+    color: #333333;
+    position: relative;
+    top: 15px;
+    left: -18px;
+}
+.margen__hr {
+    position: relative;
+    left: -25px;
+}
+.caja__bronze {
+    width: 100%;
+    height: 97px;
+    background: #E8722D;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 3px 6px #0000000D;
+    color: #fff;
+}
+.img__medalla {
+    position: relative;
+    top: -27px;    
+}
+.p__nivel__b {
+    position: relative;
+    top: -33px; 
+    font-size: 16px;
+}
+.guion , .p__nivel__b--2 {
+    position: relative;
+    top: -47px;
+}
+.p__nivel__b--2 {
+    font-size: 11px;
+}
+.caja__beneficios {
+    width: 100%;
+    height: 248px;
+    border-radius: 8px 8px 8px 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #0000000D;
+}
+.p__beneficios {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+.p__beneficios_dos {
+    font-size: 15px;
+    color: #393A34;
+    font-weight: 500;
+    line-height: 13px;
+}
+.contenedor__lista__beneficios {
+    font-size: 13px;
+    color: #787B7B;
+    margin-bottom: -8px;
+    position: relative;
+    top: -7px;
+    left: -7px;
+}
+.p__lista__beneficios {
+    position: relative;
+    top: 4px;
+}
+.barra__progreso {
+    background-color: #FE3151 !important;
+}
+.progress {
+    height: 8px !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+}
+.p__barra {
+    color: #787B7B;
+    font-size: 13px;
+}
+.contenedor__barra {
+    position: relative;
+    top: 10px;
+}
+.p__siguiente_nivel {
+    font-size: 15px;
+    color: #393A34;
+}
+.img__flecha__sn {
+    position: relative;
+    top: -6px;
+    left: 15px;
+}
+.guion__dos, .p__info {
+    position: relative;
+    top: -25px;
+}
+.p__info {
+    color: #8696A9;
+    font-size: 10px;
+}
+.enlace__subir_nivel {
+    color: #FE3151;
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    text-decoration: underline;
+}
+.enlace__subir_nivel:hover , .enlace__subir_nivel:focus {
+    color: #FE3151;
+}
+.caja__bronze--plata {
+    background: linear-gradient( #C2C7C7, #616464);
+}
+.caja__bronze--oro{
+    background: linear-gradient( #FBD24D, #FFB300);
+}
+.caja__bronze--diamante {
+    background:#3BCBE2;
+}
+.nivel__mas_alto {
+    color: #FE3151;
+    position: relative;
+    top: -40px;
+}

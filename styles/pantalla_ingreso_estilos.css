@@ -1,0 +1,80 @@
+body{
+    background-image:url(../images/icons/fondo_manchas.svg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+.contenedor__h2__inicio{
+    font-size: 22px;
+    text-align: center;
+    color: rgba(74, 75, 77, 0.8);
+    font-family: 'Metropolis Medium';
+}
+.contenedor__a{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #8AACD5;
+    font-family: 'Metropolis Medium';
+    
+}
+/*-----Botón hover----*/
+.contenedor__a:hover, .contenedor__a:focus{
+    color: #7694b8;
+    text-decoration: none;
+}
+.boton__continuar{
+    background-color: #fff ;
+    margin-bottom: 10px;
+    color: #B6B7B7;
+    border: 1px solid #B6B7B7;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    outline: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.boton__continuar:hover, .boton__continuar:focus {
+    text-decoration: none;
+    color: #FE3151;
+    border: 1px solid #FE3151;
+}
+.contenedor__registro__p{
+    font-size: 13px;
+    text-align: center;
+    color: rgba(254, 49, 81, 0.7);
+    font-family: 'Metropolis Medium';
+}
+.contenedor__registro__a{
+    font-size: 13px;
+    text-align: center;
+    color: var(--main-bg-color-principal);;
+}
+.contenedor__registro__a:hover, .contenedor__registro__a:focus{
+    color: var(--main-hover-color);
+    text-decoration: none;
+}
+.contenedor__continuar__p{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 200px;
+}
+.contenedor__continuar__img{
+ width: 20px;
+ height: 20px;
+}
+.contenedor__sombra{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 40px;
+}
+/*  */
+.ojo_abierto{
+    color: #FE3151;
+    border-color: #FE3151;
+}

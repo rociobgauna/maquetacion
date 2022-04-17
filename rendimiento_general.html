@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/pantalla_registro_estilos.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/anuncios.css">
+    <link rel="stylesheet" href="styles/rendimiento.css">
+    <title>Rendimiento</title>
+</head>
+<body>
+      <div class="container justify-content-center">
+        <header>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-10 d-flex justify-content-start align-content-center contenedor__titulo__principal">
+                    <img src="images/icons/flecha_.svg" alt="" class="mr-3"><p class="titulo__principal">Rendimiento</p>
+                </div>
+            </div>
+        </header>
+    <div class="row">
+            <div class="col-12">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-10 d-flex pt-3 justify-content-start align-items-center pl-0">
+                        <div class="prueba1"></div>
+                        <span class="contenedor__botones__rendimiento d-flex justify-content-start align-items-center">
+                            <button class="col-5 contenedor__botones__personal botonesfocus botones__rendimiento " id="personal">General</button>
+                            <button class="col-5 contenedor__botones__empresas botones__rendimiento" id="empresa">Anuncios</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- Apartado General -->
+                <div class="row justify-content-center align-content-center mt-4" id="contenidoPersonal">
+                    <div class="col-10 d-flex justify-content-center align-content-center p-0">
+                        <div class="row contendor__visitas">
+                            <div class="col-12 d-flex justify-content-center align-items-center contenedor__general">
+                                <div class="col-3 flex-column justify-content-center align-items-center contenedor__general__div">
+                                        <h4 class="general__visitas mt-2 general__borde mb-0">0</h4>
+                                        <p class="general__visitas__p general__borde">Visitas totales</p>
+                                </div>
+                                <div class="col-5 flex-column justify-content-center align-items-center contenedor__general__div">
+                                        <h4 class="general__visitas mt-2 general__borde mb-0">0</h4>
+                                        <p class="general__visitas__p general__borde">Visitas en los últimos 7 días</p>
+                                </div>
+                                <div class="col-5 flex-column justify-content-center align-items-center contenedor__general__div">
+                                    <h4 class="general__visitas mt-2 mb-0">0</h4>
+                                    <p class="general__visitas__p">Visitas en los últimos 30 días</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 justify-content-start align-content-center mt-4 pb-3 pl-0">
+                        <h4 class="consejos__h4">Consejos</h4>
+                    </div>
+                    <div class="row justify-content-center align-content-center" style="width: 100%;">
+                        <div id="carouselExampleIndicators" class="carousel slide col-10 justify-content-center align-content-center" data-bs-ride="carousel">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="carousel-inner contenedor__consejos col-12 vertical">
+                                    <h6 class="consejos__h6">¿Como hacer un mejor anuncio?</h6>
+                                    <!-- Primer slider -->
+                                    <div class="carousel-item active justify-content-center align-items-center vertical">
+                                        <div class="row justify-content-center align-content-center">
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">1</span>
+                                                <p class="consejos__p">El primer paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">2</span>
+                                                <p class="consejos__p">El segundo paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">3</span>
+                                                <p class="consejos__p">El tercer paso es...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item  justify-content-center align-items-center vertical">
+                                        <div class="row justify-content-center align-content-center">
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">4</span>
+                                                <p class="consejos__p">El primer paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">5</span>
+                                                <p class="consejos__p">El segundo paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">6</span>
+                                                <p class="consejos__p">El tercer paso es...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item  justify-content-center align-items-center vertical">
+                                        <div class="row justify-content-center align-content-center">
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">7</span>
+                                                <p class="consejos__p">El primer paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">8</span>
+                                                <p class="consejos__p">El segundo paso es...</p>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-start align-items-center pt-3">
+                                                <span class="consejos__numeros">9</span>
+                                                <p class="consejos__p">El tercer paso es...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+                <!-- Apartado anuncios -->
+            <div class="row d-none justify-content-center align-items-center m-auto" id="contenidoEmpresa" style="width: 100%;">
+                            <!-- Primer anuncio -->
+                                <div class="col-10 d-flex justify-content-center aling-items-center contendor__anuncios mt-4">
+                                    <div class="col-3 d-flex justify-content-start align-items-start p-0 contenedor__anunciosDetalles__img1">
+                                        <img src="images/icons/casa123.png" alt="">
+                                    </div>
+                                    <div class="col-6 flex-column justify-content-center align-items-center p-0">
+                                        <h5 class="anuncio__titulo__p">Casa 123</h5>
+                                        <p class="anuncio__texto__p">Sector 150, 
+                                        Pusta Road, Noida</p>
+                                    </div>
+                                    <div class="col-3 flex-column justify-content-center align-items-center p-0">
+                                        <div class="d-flex justify-content-around align-items-center p-0">
+                                            <img src="images/icons/ojo_visitas.svg" alt="" class="anuncios__ojo">
+                                            <p class="anuncios_detalles__h5">900</p>
+                                        </div>
+                                        <p class="anuncios_detalles__p">+2,80%</p>
+                                    </div>
+                                </div>
+                            <!-- Segundo anuncio -->
+                            <div class="col-10 d-flex justify-content-center aling-items-center contendor__anuncios mt-4">
+                                <div class="col-3 d-flex justify-content-start align-items-start p-0 contenedor__anunciosDetalles__img">
+                                    <img src="images/icons/casa123.png" alt="">
+                                </div>
+                                <div class="col-6 flex-column justify-content-center align-items-center p-0">
+                                    <h5 class="anuncio__titulo__p">Casa 123</h5>
+                                    <p class="anuncio__texto__p">Sector 150, 
+                                    Pusta Road, Noida</p>
+                                </div>
+                                <div class="col-3 flex-column justify-content-center align-items-center p-0">
+                                    <div class="d-flex justify-content-around align-items-center p-0">
+                                        <img src="images/icons/ojo_visitas.svg" alt="" class="anuncios__ojo">
+                                        <p class="anuncios_detalles__h5">900</p>
+                                    </div>
+                                    <p class="anuncios_detalles__p">+2,80%</p>
+                                </div>
+                            </div>
+            </div>     
+         
+     
+    </div> 
+                         <!-- Menú de navegación -->
+                         <div class="row justify-content-center">
+                            <div class="col-12 d-flex justify-content-around iconos_footer mt-4 contenedor__secciones__menu">
+                                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                                    <button href="#" class="contenedor__home__menu1 contenedor__boton__menu p-0">
+                                        <i class="menu__imgs menu__img1"></i> 
+                                        <p class="texto_icons">Home</p></button>
+                                </div>
+                                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                                        <button href="#" class="contenedor__home__menu2 contenedor__boton__menu p-0">
+                                            <i class="menu__imgs menu__img2"></i> 
+                                            <p class="texto_icons mensaje">Mensajes</p></button>
+                                </div>
+                                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                                        <button href="#" class="contenedor__home__menu3 contenedor__boton__menu p-0">
+                                            <i class="menu__imgs menu__img3"></i>
+                                            <p class="texto_icons mensaje">Anuncios</p></button>
+                                </div>
+                                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                                        <button href="#" class="contenedor__home__menu4 contenedor__boton__menu p-0">
+                                            <i class="menu__imgs menu__img4"></i>
+                                            <p class="texto_icons guardados">Rendimiento</p></button>
+                                </div>
+                                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                                        <button href="#" class="contenedor__home__menu5 contenedor__boton__menu p-0">
+                                            <i class="menu__imgs menu__img5"></i>
+                                            <p class="texto_icons">Perfil</p></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin menú --> 
+                
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        
+        //---------- Botones--------//
+      $('#personal').click(function(){
+          personal()
+      })
+      $('#empresa').click(function(){
+          empresa()
+      })
+      
+      function correrBarra(x){
+        let mover_left = '0%';
+        if(x===1){
+          mover_left='37%';
+        }
+        $(".prueba1").animate({left: mover_left}, 400)
+      }
+      function empresa(){
+        correrBarra(1)
+        $('#personal').removeClass('botonesfocus')
+        $('#empresa').addClass('botonesfocus')
+        $('#contenidoEmpresa').removeClass('d-none')
+        $('#contenidoPersonal').addClass('d-none')
+      }
+      function personal(){
+        correrBarra(2)
+        $('#empresa').removeClass('botonesfocus')
+        $('#personal').addClass('botonesfocus')
+        $('#contenidoPersonal').removeClass('d-none')
+        $('#contenidoEmpresa').addClass('d-none')
+      }
+      // Carrousel//
+      $('.carousel').carousel({
+            interval: false,
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

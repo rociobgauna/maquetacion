@@ -1,0 +1,66 @@
+.contenedor__img{
+    margin-top: 100px;
+}
+.contenedor_imgs{
+    width: 300px;
+    height: 250px;
+}
+.contenedor__espera__titulo{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Metropolis Medium';
+}
+.contenedor__espera__parrafo{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 500; 
+    text-align: center;
+}
+.boton__espera{
+    color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    font-size: 16px;
+    background:#FE3151;
+    border: 2px solid #FFF;
+    font-family: 'Sofia Pro Light';
+    border-radius: 3px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 250px;
+}
+.ul__icono{
+    background-image: url(../images/icons/punto_gris.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.ul__icono_active{
+    background-image: url(../images/icons/punto_blanco.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.carousel-indicators{
+    position: fixed;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.contenedor__img__logo{
+    margin-bottom: 40px;
+    width: 107px;
+    height: 30px;
+}
+.contenedor__banners{
+    height: 550px;
+}

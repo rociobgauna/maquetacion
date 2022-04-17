@@ -1,0 +1,292 @@
+.contenedor__header {
+    background-image: url('../images/icons/fondo_rosa_manchas.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 95px;
+
+}
+.p__header{
+    color: #fff;
+    font-size: 15px;
+}
+.img__arrow_white {
+    position: relative;
+    top: -2px;
+    left: -8px;
+}
+.espacioredondeado {
+    background: #ffff;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    border-radius: 20px 20px 0px 0px;
+}
+.precio {
+    position:relative;
+    top: -20px;
+}
+.p__precio, .pr__expensas, .p__select__moneda,.p__select__medida {
+    color: #333333;
+    font-size: 20px;
+}
+.p__moneda,.p__usd,.p__usd_dos, .pr__cop, .pr__cop_dos{
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.guion__segundo {
+    position: relative;
+    top: -6px;
+}
+.guion__cuarto {
+    top: 20px;
+}
+.p__filtros, .guardar , .p__cubierta, .pr__total,.p__selec__medida {
+    color: #333333;
+    font-size: 15px;
+}
+.boton__buscar {
+    border: none;
+    background: #FE3151;
+    width: 137px;
+    height: 40px;
+    border-radius: 5px;
+}
+.img__lupa {
+    width: 19px;
+    height: 20px;
+}
+.pr__btn {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.boton__r {
+    width: 100%;
+    height: 100%;
+}
+.img__lupa {
+    position: relative;
+    left: 23px;
+    top: -4px;
+}
+.p__filtros {
+    position: relative;
+    top: 13px;
+}
+/*------pantalla moneda--------*/
+.linea {
+    border-bottom: solid 2px #F5F5F5;
+}
+.pr__mexicano,.pr__acres,.pr__pc,.pr__hectarea,.pr__metros_c {
+    color: #333333;
+    font-size: 16px;
+}
+.img__x {
+    position: relative;
+    left: -10px;
+}
+.linea__mex {
+    width: 100%;
+}
+.guion__mex {
+    display: flex;
+    justify-content: center;
+}
+.btn__guardar {
+    border: none;
+    background: none;
+}
+input[type=checkbox]{
+    display: none;
+}
+.input label{
+    width: 100%;
+    height: 100%;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.8);
+}
+.input label:before{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    right: 0px;
+    content: "";
+    opacity:1;
+    top: 14px;
+    left: 263px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+input[type=checkbox]:checked + label:before{
+    content: url("../images/icons/tick.svg");
+    background-color: #fe3151;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    opacity:1;
+}
+.pr__mexicano {
+    position: relative;
+    top: 13px;
+} 
+/*------pantalla medidas--------*/
+.contenedor__header__dos {
+    background-image: url('../images/icons/fondo_rosa_manchas.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 195px;
+}
+.pr__medidas{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+}
+.p__superficie {
+    color: #8696A9;
+    font-size: 15px;
+
+}
+.contenedor__cubierta {
+    background:rgb(134,134,169,34%);
+    width: 217px;
+    height: 36px;
+    border-radius: 18px 18px 18px 18px;
+}
+.contenedor__total {
+    background: #fff;
+    height: 28px;
+    width: 107px;
+    border-radius: 18px 18px 18px 18px;
+    position: relative;
+    left: 4px;
+    top: -1px;
+}
+.p__cubierta {
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+.pr__total {
+    position: relative;
+    top: 2px;
+}
+.p__medida {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 0px;
+    position: relative;
+    left: 4px;
+}
+.pr__mdos {
+    font-size: 13px;
+    color: #999999;
+    position: relative;
+    top: -2px;
+    left: 4px;
+}
+.p__superficie {
+    position: relative;
+    left: -5px;
+}
+.guion__gris {
+    width: 100%;
+    height: 1px;
+    background:#0000004A;
+    opacity: 34%;
+    position: relative;
+    top: -23px;
+}
+.pr__cop_dos {
+    position: relative;
+    left: 25px;
+}
+.espacio__uno {
+    width: 100%;
+    height: 160px;
+}
+.guion__gris__dos {
+    width: 100%;
+    height: 1px;
+    background:#0000004A;
+    opacity: 34%;
+}
+.boton__r--gris {
+    background: rgb(182,183,183,70%);
+}
+.pr__btn_sig {
+    color: #ffff;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.p__omitir {
+    position: relative;
+    color: #333333;
+    font-size: 15px;
+    left: 10px;
+    top: 10px;
+}
+.caja__transparente {
+    background: rgb(0, 0, 0, .2);
+    width: 100%;
+    height: 355px;
+    display:flex;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    padding: 0;
+    margin-left: -15px;
+    position: absolute;
+}
+.espacioredondeado__sec__med {
+    z-index:2;
+    position: relative;
+    top: -37px;
+    
+}
+.caja__blanca {
+    height: 400px;
+}
+.contenedor__checkbox {
+    width: 100%;
+}
+/*------pantalla antiguedad--------*/
+.btn__selec {
+    border: none;
+    background: none;
+}
+.p__btn__selec {
+    color: #999999;
+    font-size: 13px;
+    position: relative;
+    left: -5px;
+    margin-bottom: 8px;
+}
+.p__subt {
+    margin-bottom: -5px;
+}
+.p__omitir--seg {
+   position: relative;
+   left: 23px;
+}
+.contenedor__footer {
+    position: relative;
+    top: 100px;
+}
+.btn__gris--dos {
+    position: relative;
+    left: -14px;
+}
+/*------pantalla datos-------
+.p__dtos {
+ position: relative;
+ left: 10px;
+}
+-*/

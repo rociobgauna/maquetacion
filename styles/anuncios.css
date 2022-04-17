@@ -1,0 +1,203 @@
+body{
+    background-color: #fff;
+}
+.contenedor__titulo__principal{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    
+}
+.contenedor__misAnuncios{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.anuncios__h3{
+    font-family: 'Sofia Pro Medium';
+    color: #333333;
+    text-align: left;
+}
+.anuncios__input{
+    width: 100%;
+    height: 30px;
+    padding: 0px 0px 10px 10px;
+    font-size:18px;
+    font-family: 'Sen';
+}
+.misAnuncios__img{
+    width: 80%;
+    height: 80%;
+}
+.contenedor__anuncios__casas{
+    background-color:#fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px 10px;
+}
+.contenedor__anuncios__estado{
+    background-color:#fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 8px 8px;
+    padding: 10px 10px;
+}
+.anuncios__titulo{
+    font-family: 'Sofia Pro Medium';
+    color: #393A34;
+}
+.anuncio__casas__img{
+    width: 100%;
+    height: 100%;
+}
+.anuncio__casas__titulo{
+    font-family:'Sofia Pro';
+    color: #393A34;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.anuncio__casas__p{
+    color: #999999;
+    font-size: 13px;
+    font-family: 'Sofia Pro Light';
+    margin-left: 10px;
+}
+.anuncios__boton{
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.anuncios__boton img{
+    width: 18px;
+    height: 20px;
+}
+.anuncio__casas_contenedorImg{
+    background-color: #EFEFEF;
+    border-radius: 8px;
+}
+.anuncios__estado__titulo{
+    font-family: 'Sofia Pro Medium';
+    color: #393A34;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.anuncios__estado__p{
+    color: #999999;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.anuncios__estado__img{
+    padding-top: 10px;
+}
+.progress{
+    background-color: #ABABAB;
+    height: 6px;
+}
+.bg-success{
+    background-color: #FE3151 !important;
+}
+.contenedor__publicar{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+}
+.publicar__titulo{
+    color: #393A34;
+    font-family: 'Sofia Pro Medium';
+    font-size: 18px;
+    text-align: left;
+    margin-left: 5px;
+}
+/* Detalles anuncios */
+.contenedor__anunciosDetalles{
+    padding: 50px 20px;
+}
+.contendor__anuncios{
+    padding: 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.borde{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 70%;
+}
+.anuncio__titulo__p{
+    color: #393A34;
+    font-size: 16px;
+    font-family: 'Sofia Pro Medium';
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.anuncio__texto__p{
+    color: #999999;
+    font-size: 12px;
+    font-family: 'Sofia Pro Light';
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.contenedor__anunciosDetalles__img img{
+    height: 100%;
+    width: 100%;
+}
+.anuncios_detalles__h5{
+    font-size: 20px;
+    font-family: 'Sofia Pro Medium';
+    color: #393A34;
+    margin-bottom: 0;
+}
+.anuncios_detalles__p{
+    font-size: 14px;
+    font-family: 'Sofia Pro Medium';
+    color: #51D3A3;
+    text-align: right;
+    margin-bottom: 0;
+}
+.anuncio_detalles_boton{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #393A34;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Sofia Pro Medium'
+    
+}
+.anuncio_detalles_boton:focus{
+    background-color: #FFE6EA;
+    color: #FE3151;
+    border-radius: 20px;
+}
+.anuncios_detalle__borde{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.borde1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding-top: 50px;
+    bottom: 0px;
+}
+.anuncios__ojo{
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.anuncios_detalles__p1{
+    font-size: 16px;
+    font-family: 'Sofia Pro Medium';
+    color: #51D3A3;
+    text-align: right;
+    margin-bottom: 0;
+}
+.anuncios_detalles__h51{
+    font-size: 24px;
+    font-family: 'Sofia Pro Medium';
+    color: #393A34;
+    margin-bottom: 0;
+}
+.img__borde{
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}

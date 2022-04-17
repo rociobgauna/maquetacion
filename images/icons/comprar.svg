@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.165" height="33.751" viewBox="0 0 34.165 33.751">
+  <g id="Grupo_19323" data-name="Grupo 19323" transform="translate(-50.138 -147.948)">
+    <path id="Path" d="M2753.351,315.847a1.258,1.258,0,0,0-.366-.891l-14.829-14.885a1.249,1.249,0,0,0-1.766-.006l-.006.006-14.831,14.885a1.261,1.261,0,0,0-.367.891v10.858a4.6,4.6,0,0,0,4.594,4.613h7.343" transform="translate(-2670.048 -150.618)" fill="none" stroke="#fe3151" stroke-width="2"/>
+    <path id="Path-2" data-name="Path" d="M2721.186,315.847a1.26,1.26,0,0,1,.367-.891l14.829-14.885a1.248,1.248,0,0,1,1.765-.006l.007.006,14.831,14.885a1.263,1.263,0,0,1,.366.891v10.858a4.6,4.6,0,0,1-4.594,4.613h-7.342" transform="translate(-2670.048 -150.618)" fill="none" stroke="#fe3151" stroke-width="2"/>
+    <g id="Elipse_158" data-name="Elipse 158" transform="translate(60.021 161.696)" fill="none" stroke="#fe3151" stroke-width="1.5">
+      <circle cx="6.965" cy="6.965" r="6.965" stroke="none"/>
+      <circle cx="6.965" cy="6.965" r="6.215" fill="none"/>
+    </g>
+    <text id="_" data-name="$" transform="translate(64.486 171.696)" fill="#fe3151" font-size="10" font-family="SofiaPro-Medium, Sofia Pro" font-weight="500"><tspan x="0" y="0">$</tspan></text>
+  </g>
+</svg>

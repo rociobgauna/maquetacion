@@ -1,0 +1,175 @@
+
+.container {
+    background: #FEFEFE;
+}
+.contenedor__cajaroja {
+    background-image: url('../images/icons/fondo_rosa_manchas.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 210px;
+}
+.img__perfil__cara {
+    border: solid 2px #fff;
+    border-radius: 50px;
+}
+
+.parrafo__cajaroja {
+    color: #ffff;
+    font-size:20px;
+}
+.contenedor__anuncios__rendimiento{
+    position: relative;
+    top: 22px;
+}
+.icono1 {
+    background: #FE3151;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.icono1--blanco {
+    background: #fff;
+}
+.cajaicono {
+    background: #fff;
+    width:143px;
+    height: 132px;
+    box-shadow: 0px 3px 6px #0000000D;
+    border-radius: 8px 8px 8px 8px;
+}
+.contenedor__dos, .contenedor__tres, .contenedor__cuatro {
+    position: relative;
+    top: 40px;
+}
+
+.contenedor__dos {
+    width: 100%;
+    height: 132px;
+    box-shadow: 0px 3px 6px #0000000D;
+    border-radius: 8px 8px 8px 8px;
+}
+.numero__anuncios , .numero__dias {
+    color: #393A34;
+    font-size:16px;
+    margin-bottom: -5px;
+}
+.p__anuncios, .p__rendimiento {
+    color: #FE3151;
+    font-size: 11px;
+}
+.msj {
+    color: #FE3151;
+    font-size: 11px;
+}
+.contenedor__dos__perfiles {
+    position: relative;
+    top: -10px;
+}
+.contenedor__dos__mensaje {
+    left: 10px;
+}
+.cantidad__de__msj {
+    background: #FE3151;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    z-index: 1;
+    margin-top: 3px;
+    left: 16px;
+}
+.cantidad__de__msj--numero {
+    color: #ffff;
+    font-size: 11px;
+}
+.perfiles__fotos {
+    position: relative;
+    left: 6px;
+}
+.arrow__pink {
+    position: relative;
+    left: -3px;
+    top: -1px;
+}
+.p_nombre {
+    font-size: 12px;
+    color: #070B41;
+    position: relative;
+    top: -12px;
+}
+.p__designaciones , .p__niveles {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contenedor__cuatro {
+    width: 100%;
+    height: 246px;
+    box-shadow: 0px 3px 6px #0000000D;
+    border-radius: 8px 8px 8px 8px;
+}
+.img__perfil__designador{
+    border: solid 1px #FE3151;
+    border-radius: 50px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.lista__desig {
+    list-style: none;
+    position: relative;
+    left: -13px;
+    top: -5px;
+}
+.perfiles__fotos--dos {
+    height: 100px;
+    border-left: solid 1px #FE3151;
+    position: relative;
+    left: 6px;
+    top: -23px;
+}
+.designador__li {
+    color: #393A34;
+    font-size: 16px;
+}
+.orden__rangos {
+    color: #FE3151;
+    font-size: 11px;
+}
+.contenedor__niveles {
+  position: relative;
+  top: 30px;
+}
+.p__gris {
+    color:#999999;
+    font-size: 12px; 
+    position: relative;
+    top: -15px;
+    left: 3px;
+}
+.espacio {
+    width: 100%;
+    height: 104px;
+}
+.margen__footer {
+    width: 100%;
+    height: 2px;
+    border-radius: 25px;
+    background: #FE3151;
+    display:scroll;
+    position:fixed;
+    bottom:110px;
+}
+.img__niveles{
+    width: 100%;
+}
+.niveles_p{
+    text-align: left;
+}
+.barra__r {
+    position: fixed;
+    bottom: 105px;
+    height: 1px;
+    width: 75%;
+    background-color: #FE3151;;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/mensajes_chat.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 d-flex justify-content-start">
+                <img src="images/icons/flecha_back.svg" alt="flecha back" class="col-2 arrow__back--dos mt-4">
+            </div>
+        </div>
+        <div class="row contenedor__perfil__chat">
+            <div class="col-11 d-flex justify-content-start ">
+                <div class="d-flex justify-content-start">
+                    <img src="images/icons/foto_perfil11.svg" class="ml-3 perfil__chat">
+                </div>
+                <div class="d-flex flex-column align-items-start col-7 mt-4">
+                    <p class="name__chat name__chat--dos mt-2">Melvin Burguess</p>
+                    <p class="line line__chat--dos">Online</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center margen__mjs">
+            <div class="col-11 justify-content-center align-items-center ml-4">
+                <div class="guion__chat--dos"></div>
+            </div>
+         </div>
+        <div class="contenedor__chat">
+            <div class="row d-flex bd-highlight chat__publicacion justify-content-end">
+                <div class="dialogo__image">
+                    <img src="images/icons/departamento_precio.svg" class="ml-1 dialogo__imagen">
+                    <div class="dialogo__image__p flex-column justify-content-start align-items-center">
+                        <p class="ml-4 p__depto__uno">Departamento Entero</p>
+                        <p class="ml-4 p__depto__dos">Sector 150, Pusta Road, Noida</p>
+                        <div class="d-flex ml-4 mt-4 precio__departamento justify-content-start align-items-center">
+                            <img src="images/icons/argentina.svg">
+                            <p class="p__precio">$6000</p>
+                        </div>
+                        <div class="d-flex ml-4 mt-4 expensas__precio justify-content-start align-items-center">
+                            <img src="images/icons/argentina.svg" class="bandera__dos">
+                            <p class="p__expensas mt-4 ml-1">$1200 Expensas</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row justify-content-start">
+                <div class="col-10 d-flex flex-row bd-highlight mt-4 cont__dialogo">
+                    <div class="p-2 bd-highlight dialogo_uno col-9 ml-4 d-flex align-items-center">
+                        <p class="p__dialogo mt-2">Hola como estas, esta propiedad esta disponible?</p>
+                    </div>
+                </div>
+              </div>
+            <div class="row justify-content-start">
+                <div class=" col-10 d-flex flex-row bd-highlight mt-4 cont__dialogo cont__dialogo__dos">
+                    <div class="p-2 bd-highlight dialogo_uno dialogo_uno--height col-6 ml-4">
+                        <p class="p__dialogo p__dialogo--dos">Estoy interesado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-start">
+                <div class="col-10 justify-content-start align-items-center">
+                <p class="hora__chat col-4 ml-3">5:45pm</p>
+                </div>
+            </div>
+            <div class="row d-flex flex-row-reverse bd-highlight anunciante__prop">
+                <div class="col-9 d-flex justify-content-end align-items-center cont__dialogo__prop mr-4">
+                    <p class="p__anunciante">Hola Melvin, si esta propiedad esta disponible para compra 
+                        <img src="images/icons/emoji_nerd.svg">
+                    </p>
+                </div>
+            </div>
+              <div class=" row justify-content-end">
+                  <div class="col-10 d-flex justify-content-end bd-highlight mt-4 mr-2">
+                    <p class="hora__chat">5:45pm</p>
+                    <img src="images/icons/visto.svg">
+                  </div>
+              </div>  
+        </div>
+        <div class="contenedor__enviar__msj">
+            <div class="row justify-content-center mt-4 enviar__msj">
+                <div class="col-12 d-flex justify-content-around align-items-center fondo_div--dos">
+                    <img src="images/icons/btn_mas.svg" class="img__mas">
+                    <input type="text" name="texto" value="" class="mensaje1 col-10">
+                    <button class="btn__enviar d-flex justify-content-center align-items-center">
+                      <img src="images/icons/flecha_enviar_blanca.svg">
+                    </button>
+                </div>
+            </div>
+          </div>
+          <!----------FOOTER--------------->
+          <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-around iconos_footer mt-4 contenedor__secciones__menu">
+                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                    <button href="#" class="contenedor__home__menu1 contenedor__boton__menu p-0">
+                        <i class="menu__imgs menu__img1"></i> 
+                        <p class="texto_icons">Home</p></button>
+                </div>
+                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                        <button href="#" class="contenedor__home__menu2 contenedor__boton__menu p-0">
+                            <i class="menu__imgs menu__img2"></i> 
+                            <p class="texto_icons mensaje">Mensajes</p></button>
+                </div>
+                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                        <button href="#" class="contenedor__home__menu3 contenedor__home__menu3--dos contenedor__boton__menu p-0">
+                            <i class="menu__imgs menu__img3--dos"></i>
+                            <p class="texto_icons mensaje">Explorar</p></button>
+                </div>
+                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                        <button href="#" class="contenedor__home__menu4 contenedor__home__menu4--dos contenedor__boton__menu p-0">
+                            <i class="menu__imgs menu__img4--dos"></i>
+                            <p class="texto_icons guardados">Guardados</p></button>
+                </div>
+                <div class="col-2 flex-column justify-content-center align-items-center contenedor__menu p-0">
+                        <button href="#" class="contenedor__home__menu5 contenedor__boton__menu p-0">
+                            <i class="menu__imgs menu__img5"></i>
+                            <p class="texto_icons">Perfil</p></button>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+          
+    
+</body>
+</html>

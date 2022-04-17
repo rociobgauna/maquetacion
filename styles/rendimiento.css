@@ -1,0 +1,136 @@
+body{
+    background-image: none;
+    background-color: #fff;
+}
+.contenedor__botones__rendimiento{
+    border-bottom: 1px ridge rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+}
+.contenedor__titulo__principal{
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+}
+.titulo__principal{
+    font-size: 24px;
+    font-family: 'Sofia Pro Medium';
+    color: #333333;
+    margin-bottom: 0;
+}
+.contendor__visitas{
+    width: 100%;
+}
+.general__visitas{
+    text-align: center;
+    color: #393A34;
+    font-size: 20px;
+}
+.general__visitas__p{
+    text-align: center;
+    color: #393A34;
+    font-size: 14px;
+}
+.contenedor__general{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.contenedor__botones__personal, .contenedor__botones__empresas{
+    font-size: 18px;
+}
+.botones__rendimiento{
+    text-align: left;
+}
+.general__borde{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contenedor__general__div{
+    padding: 0px 0px;
+}
+.consejos__h4{
+    font-family: 'Sofia Pro Medium';
+    color: #333333;
+}
+.contenedor__consejos{
+    width: 100%;
+    background-color: #fe3151;
+    border-radius: 8px;
+    padding: 20px 15px;
+}
+.consejos__h6{
+    color: #fff;
+    font-family: 'Sen';
+    font-size: 16px;
+}
+.consejos__p{
+    color: #fff;
+    margin-bottom: 0px;
+    height: 100%;
+    font-family: 'Sofia Pro Medium';
+}
+.consejos__numeros{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.carousel-indicators button{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 8px;
+    width: 8px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    padding: 0px 0px;
+}
+.carousel-indicators button:focus{
+    background-color: #fff;
+}
+.carousel-indicators{
+    transform: rotate(90deg);
+    margin: 0px 0px;
+    width: 80px;
+    left: 80%;
+    bottom: 35%;
+}
+/* prueba */    
+.carousel-inner.vertical {
+    height: 100%;
+}
+.carousel-inner.vertical > .item {
+    -webkit-transition: .6s ease-in-out top;
+    -o-transition: .6s ease-in-out top;
+    transition: .6s ease-in-out top;
+}
+.carousel-inner.vertical > .active {
+    top: 0;
+}
+.carousel-inner.vertical > .next, .carousel-inner.vertical > .prev {
+    top: 0;
+    height: 100%;
+    width: auto;
+}
+.carousel-inner.vertical > .next {
+    left: 0;
+    top: 100%;
+}
+.carousel-inner.vertical > .prev {
+    left: 0;
+    top: -100%
+}
+.carousel-inner.vertical > .next.left, .carousel-inner.vertical > .prev.right {
+    top: 0;
+}
+.carousel-inner.vertical > .active.left {
+    left: 0;
+    top: -100%;
+}
+.carousel-inner.vertical > .active.right {
+    left: 0;
+    top: 100%;
+}
